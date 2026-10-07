@@ -10,6 +10,18 @@ I will be using for example is the Creality Ender 3 V2 Neo, which I have
 had and used for years. For other printers, principles from this doc may
 apply.
 
+I've decided to begin this project to assist myself and other enthusiasts
+with a straightforward, procedure for quickly setting up popular
+Ender-style 'bedslingers'. Many modern printers enjoy enhancements that
+automate or minimize these manual and often frustrating procedures. Also,
+many references already exist for these platforms so I will attempt to not
+reinvent the wheel in this process. As I am still a proud owner of one of
+these machines, finicky as they might be, I will continue to support their
+configuration, customization and freedom as long as possible. Long live
+the Ender!
+
+Thanks for checking out this repository, and Happy printing.
+
 ## Manual Adjustments
 These steps apply to **bedslinger** printers; CoreXY printers require a
 different process.
