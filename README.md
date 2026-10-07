@@ -22,6 +22,24 @@ the Ender!
 
 Thanks for checking out this repository, and Happy printing.
 
+## What This Reference Covers
+
+This document will focus on the setup and manual adjustments that I have
+found useful for Ender-style bedslingers. As the project grows, I plan to
+include notes on the following:
+
+* Basic first-time setup and mechanical checks
+* Bed leveling and Z-offset adjustments
+* First-layer testing and troubleshooting
+* Useful models, upgrades, and configuration references
+
+## How to Use This Reference
+
+Start with the manual adjustments below before making software or hardware
+changes. Once the first layer is consistent, use the linked test model to
+confirm the settings. The recommendations here are based on my Ender 3 V2
+Neo, so use them as a starting point and adjust them for your own machine.
+
 ## Manual Adjustments
 These steps apply to **bedslinger** printers; CoreXY printers require a
 different process.
