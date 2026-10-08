@@ -1,5 +1,13 @@
 # 3D Print Reference
 
+![](./assets/photo-import-8-7-26/20261006_215804.jpg)
+
+### Outline
+- [Description](#description)
+- [What This Reference Covers](#what-this-reference-covers)
+- [How to Use This Reference](#how-to-use-this-reference)
+- [Manual Adjustments](#manual-adjustments)
+
 ### Description
 
 The purpose of this repository is to document my personal process for
@@ -69,6 +77,8 @@ Then set or verify the Z offset through the printer controls and run a
 first-layer adhesion test print.
 
 ### Recommended Bed-Leveling Model
+
+![](./assets/1st_layer_calibration_test_6-ultimaker-cura-02_03.webp)
 
 I use [this bed-leveling model by @Supertornado on
 Printables](https://www.printables.com/model/144326). It provides a practical
