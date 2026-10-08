@@ -44,23 +44,29 @@ Neo, so use them as a starting point and adjust them for your own machine.
 These steps apply to **bedslinger** printers; CoreXY printers require a
 different process.
 
-### Manually Set the Z Offset
+### Manually Tram the Bed and Set the Z Offset
 
-Level the bed at each of its four corners:
+The bed-adjustment dials are used to manually tram the bed at each of its
+four corners. The Z-offset setting itself is adjusted through the printer's
+controls, if your printer uses one.
 
-1. Heat the bed. Heating the nozzle is optional. **Caution:** hot printer
-   components can cause burns.
-2. Manually set the Z height to `0`.
-3. Move the nozzle to a corner of the bed (for example, `X190 Y190`).
-4. Place a `0.102 mm` feeler gauge—approximately the thickness of standard
+1. Heat the bed to your usual printing temperature. Heating the nozzle is
+   optional. **Caution:** hot printer components can cause burns.
+2. Auto-home the printer, then make sure the nozzle is clean before taking
+   any measurements.
+3. Use the printer controls to set the Z height to `0`.
+4. Move the nozzle to a corner of the bed (for example, `X190 Y190`).
+5. Place a `0.102 mm` feeler gauge—approximately the thickness of standard
    printer paper—between the nozzle and bed.
-5. Adjust that corner with the bed-adjustment dial, rather than the printer
+6. Adjust that corner with the bed-adjustment dial, rather than the printer
    controls, until the desired nozzle clearance is reached.
-6. Repeat steps 3–5 for each remaining corner.
+7. Repeat steps 4–6 for each remaining corner, then revisit all four corners
+   once more. Adjusting one corner can affect the others.
 
-After leveling, run a first-layer adhesion test print. If your printer
-supports it, auto-home and run bed-meshing software; keeping the bed heated
-will produce more accurate results.
+If your printer supports bed meshing, keep the bed heated, auto-home, and run
+the mesh now. Follow your printer's instructions to save or load the mesh.
+Then set or verify the Z offset through the printer controls and run a
+first-layer adhesion test print.
 
 ### Recommended Bed-Leveling Model
 
@@ -68,9 +74,9 @@ I use [this bed-leveling model by @Supertornado on
 Printables](https://www.printables.com/model/144326). It provides a practical
 first-layer adhesion test after completing the manual adjustments above.
 
-Although simple, this model is very telling for the success rate of future prints. Look for small failures
-as these often add up to much larger inconsitencies
-with future larger, more complex prints.
+Although simple, this model is very telling for the success rate of future
+prints. Look for small failures as these often add up to much larger
+inconsistencies with future larger, more complex prints.
 
 ![](./assets/photo-import-8-7-26/20261006_220210.jpg)
 
@@ -79,18 +85,20 @@ with future larger, more complex prints.
 ### Mechanical adhesion test
 
 Using the recommended model above, one useful test
-may be performed using a small nylon bristeled 
+may be performed using a small nylon-bristled
 brush. I prefer to perform this check as the test model
 is actively printing.
 
 ![](./assets/photo-import-8-7-26/20261006_220016.jpg)
 
-This test is perfomed by sliding the bristles
-with minor tension over the first extruded layer of
+This test is performed by sliding the bristles
+with very minor tension over the first extruded layer of
 the print in order to check for any inconsistent
 bed adhesion. This may signify a low spot in the
-bed's mechanical leveling. Follow up adjustment should
-then take place.
+bed's mechanical leveling, though it can also point to
+an incorrect Z offset, flow issue, or a dirty bed. Keep
+your fingers and brush clear of the hot nozzle and moving
+axes, and stop the print before making any adjustments.
 
 If all looks good thus far, you may allow the print
 to complete.
@@ -102,4 +110,4 @@ between extrusions. Once again, you may use the nylon
 brush or similar to inspect the adhesion between the
 extruded plastic. Look for gaps or over-extrusion
 that might signify the need for further tweaks to
-z-offset or filament flow rate.
+Z offset or filament flow rate.
