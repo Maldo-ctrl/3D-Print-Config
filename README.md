@@ -121,3 +121,13 @@ brush or similar to inspect the adhesion between the
 extruded plastic. Look for gaps or over-extrusion
 that might signify the need for further tweaks to
 Z offset or filament flow rate.
+
+### Outro
+
+With the world becoming more and more automated, 3D printing is no such exception.
+Sometimes however, it's nice to slow down and handle life's small inefficiencies in a more manual
+meditative manner.
+
+Sometimes the juice is worth the squeeze.
+
+Good luck and happy printing!
