@@ -67,3 +67,39 @@ will produce more accurate results.
 I use [this bed-leveling model by @Supertornado on
 Printables](https://www.printables.com/model/144326). It provides a practical
 first-layer adhesion test after completing the manual adjustments above.
+
+Although simple, this model is very telling for the success rate of future prints. Look for small failures
+as these often add up to much larger inconsitencies
+with future larger, more complex prints.
+
+![](./assets/photo-import-8-7-26/20261006_220210.jpg)
+
+> Note the inconsistent extrusion here
+
+### Mechanical adhesion test
+
+Using the recommended model above, one useful test
+may be performed using a small nylon bristeled 
+brush. I prefer to perform this check as the test model
+is actively printing.
+
+![](./assets/photo-import-8-7-26/20261006_220016.jpg)
+
+This test is perfomed by sliding the bristles
+with minor tension over the first extruded layer of
+the print in order to check for any inconsistent
+bed adhesion. This may signify a low spot in the
+bed's mechanical leveling. Follow up adjustment should
+then take place.
+
+If all looks good thus far, you may allow the print
+to complete.
+
+![](./assets/photo-import-8-7-26/20261006_220111.jpg)
+
+One final recommendation is to look for proper spacing
+between extrusions. Once again, you may use the nylon
+brush or similar to inspect the adhesion between the
+extruded plastic. Look for gaps or over-extrusion
+that might signify the need for further tweaks to
+z-offset or filament flow rate.
